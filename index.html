@@ -36,3 +36,15 @@
   </main>
 </body>
 </html>
+<form action="https://www.payfast.co.za/eng/process" method="post">
+  <input type="hidden" name="merchant_id" value="YOUR_MERCHANT_ID">
+  <input type="hidden" name="merchant_key" value="YOUR_MERCHANT_KEY">
+  <input type="hidden" name="return_url" value="https://yourwebsite.com/success.html">
+  <input type="hidden" name="cancel_url" value="https://yourwebsite.com/cancel.html">
+  <input type="hidden" name="notify_url" value="https://yourwebsite.com/notify.php">
+
+  <input type="hidden" name="amount" value="800.00">
+  <input type="hidden" name="item_name" value="Manchester United Jersey">
+
+  <button type="submit">Buy Now</button>
+</form>
